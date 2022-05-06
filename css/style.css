@@ -1,0 +1,26 @@
+.container {
+    max-width: 1400px;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.header {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: 10px 10px 10px black;
+}
+
+body {
+    background-image: url("../img/cosmos.jpg");
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+}
