@@ -1,6 +1,6 @@
 .container {
-    max-width: 1400px;
-    padding: 0 30px;
+    max-width: 1240px;
+    margin: 0 auto;
     height: 100%;
 }
 
@@ -23,4 +23,22 @@ h1 {
 
 h2 {
     font-family: 'Russo One', sans-serif;
+}
+
+.parallax {
+    background-image: url("../img/cosmos.jpg");
+    background-attachment: fixed;
+    position: relative;
+}
+
+.parallax main {
+    z-index: 3;
+}
+
+header, main {
+    z-index: 100;
+}
+
+code {
+    color: white;
 }
